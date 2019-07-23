@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 import { ListOfCategories } from './components/ListOfCategories'
 import { GlobalStyles } from './GlobalStyles'
-import { PhotoCard } from './components/PhotoCard'
+import { ListOfPhotoCards } from './components/ListOfPhotoCards'
 
 export const App = () => (
   <Fragment>
     <GlobalStyles />
     <ListOfCategories />
-    <PhotoCard />
+    <ListOfPhotoCards />
   </Fragment>
 )
