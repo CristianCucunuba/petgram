@@ -27,6 +27,7 @@ export const Img = styled.img`
 export const Button = styled.button`
   display: flex;
   align-items: center;
+  cursor: pointer;
   padding-top: 8px;
   border: none;
   background-color: #fff;
